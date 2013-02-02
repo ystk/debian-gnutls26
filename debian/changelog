@@ -1,3 +1,17 @@
+gnutls26 (2.8.6-1+squeeze2) stable-security; urgency=high
+
+  * Apply patch to fix crashes in record parsing (CVE-2012-1573)
+
+ -- Florian Weimer <fw@deneb.enyo.de>  Sun, 25 Mar 2012 13:37:15 +0200
+
+gnutls26 (2.8.6-1+squeeze1) stable; urgency=low
+
+  * Pull fixes for buffer overflow in gnutls_session_get_data() from upstream
+    git. (CVE-2011-4128: GNUTLS-SA-2011-2) Closes: #648441
+    20_CVE-2011-4128.part1.diff 20_CVE-2011-4128.part2.diff
+
+ -- Andreas Metzler <ametzler@debian.org>  Thu, 22 Dec 2011 18:07:26 +0100
+
 gnutls26 (2.8.6-1) unstable; urgency=low
 
   * Use dh_lintian.
