@@ -1,3 +1,10 @@
+gnutls26 (2.8.6-1+squeeze3) oldstable-security; urgency=high
+
+  * 22_gnutls-2.8.5-cve-2014-0092.patch by Nikos Mavrogiannopoulos: Fix
+    certificate validation issue. CVE-2014-0092
+
+ -- Andreas Metzler <ametzler@debian.org>  Sat, 01 Mar 2014 08:02:14 +0100
+
 gnutls26 (2.8.6-1+squeeze2) stable-security; urgency=high
 
   * Apply patch to fix crashes in record parsing (CVE-2012-1573)
