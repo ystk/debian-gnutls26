@@ -1,3 +1,17 @@
+gnutls26 (2.8.6-1+squeeze5) squeeze-lts; urgency=high
+
+  * Non-maintainer upload by the Debian LTS Team.
+  * Includes multiple security fixes:
+    - CVE-2014-8155: missing date/time checks on CA certificates
+    - CVE-2015-0282: GnuTLS does not verify the RSA PKCS #1 signature
+      algorithm to match the signature algorithm in the certificate, leading to
+      a potential downgrade to a disallowed algorithm without detecting it.
+      (Backported patch prepared by the Red Hat security team.)
+    - CVE-2015-0294: GnuTLS does not check whether the two signature
+      algorithms match on certificate import.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Mon, 23 Mar 2015 16:26:52 +0100
+
 gnutls26 (2.8.6-1+squeeze4) squeeze-lts; urgency=medium
 
   * Fix CVE-2014-3466
