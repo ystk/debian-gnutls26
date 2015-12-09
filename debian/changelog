@@ -1,3 +1,11 @@
+gnutls26 (2.8.6-1+squeeze6) squeeze-lts; urgency=high
+
+  * Non-maintainer upload by the Squeeze LTS Team.
+  * CVE-2015-8313: A tiny POODLE left. Gnutls didn't check the first padding
+    byte in CBC modes.
+
+ -- Santiago Ruano Rincón <santiagorr@riseup.net>  Mon, 07 Dec 2015 19:28:55 +0100
+
 gnutls26 (2.8.6-1+squeeze5) squeeze-lts; urgency=high
 
   * Non-maintainer upload by the Debian LTS Team.
